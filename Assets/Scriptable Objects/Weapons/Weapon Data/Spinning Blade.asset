@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d45f2656adcdf4b0398e4331b1a4da53, type: 3}
+  m_Name: Spinning Blade
+  m_EditorClassIdentifier: 
+  weaponName: Laser
+  damage: 10
+  fireRate: 0.7
+  range: 5
+  projectileSpeed: 15
+  projectilePrefab: {fileID: 591727535827318729, guid: 0b4f5892082bd4882a6da1996c09e723, type: 3}
+  destroyOnEnemyHit: 1
+  destroyOnWallHit: 1
+  aliveTime: 5
